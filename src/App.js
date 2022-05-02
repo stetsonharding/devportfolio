@@ -1,6 +1,9 @@
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import "../src/App.css";
+
+import Hero from "./components/Hero";
+
 const App = () => {
   const particlesInit = async (main) => {
     console.log(main);
@@ -15,89 +18,90 @@ const App = () => {
     console.log(container);
   };
   return (
-    <div className="container-style">
-      <Particles
-        height="50%"
-        id="tsparticles"
-        init={particlesInit}
-        loaded={particlesLoaded}
-        options={{
-          fullScreen: { enable: false },
-          background: {
-            color: {
-              value: "#0d47a1",
+    <>
+      <div className="container-style">
+        <Particles
+          height="50vh"
+          id="tsparticles"
+          init={particlesInit}
+          loaded={particlesLoaded}
+          options={{
+            fullScreen: { enable: false, zIndex: -1 },
+            background: {
+              color: {
+                value: "#2c21e2",
+              },
             },
-          },
-          fpsLimit: 120,
-          interactivity: {
-            events: {
-              onClick: {
+            fpsLimit: 120,
+            interactivity: {
+              events: {
+                onClick: {
+                  enable: true,
+                  mode: "push",
+                },
+                onHover: {
+                  enable: true,
+                  mode: "repulse",
+                },
+                resize: true,
+              },
+              modes: {
+                push: {
+                  quantity: 4,
+                },
+                repulse: {
+                  distance: 150,
+                  duration: 0.4,
+                },
+              },
+            },
+            particles: {
+              color: {
+                value: "#ff748a",
+              },
+              links: {
+                color: "#ffffff",
+                distance: 100,
                 enable: true,
-                mode: "push",
+                opacity: 0.5,
+                width: 1,
               },
-              onHover: {
+              collisions: {
                 enable: true,
-                mode: "repulse",
               },
-              resize: true,
-            },
-            modes: {
-              push: {
-                quantity: 4,
-              },
-              repulse: {
-                distance: 150,
-                duration: 0.4,
-              },
-            },
-          },
-          particles: {
-            color: {
-              value: "#fff",
-            },
-            links: {
-              color: "#ffffff",
-              distance: 100,
-              enable: true,
-              opacity: 0.5,
-              width: 1,
-            },
-            collisions: {
-              enable: true,
-            },
-            move: {
-              direction: "none",
-              enable: true,
-              outModes: {
-                default: "bounce",
-              },
-              random: false,
-              speed: 1,
-              straight: false,
-            },
-            number: {
-              density: {
+              move: {
+                direction: "none",
                 enable: true,
-                area: 800,
+                outModes: {
+                  default: "bounce",
+                },
+                random: false,
+                speed: 1,
+                straight: false,
               },
-              value: 80,
+              number: {
+                density: {
+                  enable: true,
+                  area: 800,
+                },
+                value: 80,
+              },
+              opacity: {
+                value: 0.5,
+              },
+              shape: {
+                type: "circle",
+              },
+              size: {
+                value: { min: 1, max: 5 },
+              },
             },
-            opacity: {
-              value: 0.5,
-            },
-            shape: {
-              type: "circle",
-            },
-            size: {
-              value: { min: 1, max: 5 },
-            },
-          },
-          detectRetina: true,
-        }}
-      />
-
-      <h1>hello</h1>
-    </div>
+            detectRetina: true,
+          }}
+        />
+      </div>
+      <Hero />
+    </>
   );
 };
 

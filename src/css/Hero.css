@@ -1,0 +1,28 @@
+.hero-container {
+  /* Content over particles.js  */
+  position: relative;
+  z-index: 1;
+  height: 500px;
+
+  /* Aligning hero section */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 200px;
+}
+
+/* Hero Headings */
+.hero #hero-main {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+.hero #hero-sub {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1.6rem 0;
+}
