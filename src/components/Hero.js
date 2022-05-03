@@ -7,7 +7,10 @@ function Hero() {
   return (
     <div className="hero-container">
       <div className="hero">
-        <pre id="hero-main">Hello, I'm Stetson Harding</pre>
+        <pre>Hello,</pre>
+        <pre id="hero-main">
+          I'm <span id="name">Stetson</span>
+        </pre>
         <pre id="hero-sub">
           Front-End Developer - Problem Solver - Drone Pilot
         </pre>
