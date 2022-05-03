@@ -21,7 +21,7 @@ const App = () => {
     <>
       <div className="container-style">
         <Particles
-          height="50vh"
+          height="60vh"
           id="tsparticles"
           init={particlesInit}
           loaded={particlesLoaded}

@@ -8,7 +8,9 @@ function HeroBtns() {
       <button className="hero-btn" id="btn-work">
         View My Work
       </button>
-      <button className="hero-btn">Contact Me</button>
+      <button className="hero-btn" id="btn-contact">
+        Contact Me
+      </button>
     </div>
   );
 }
