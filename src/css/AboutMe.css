@@ -1,0 +1,22 @@
+.about-container {
+  max-width: 450px;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+span {
+  border-bottom: 4px solid #ff748a;
+}
+
+.introduction {
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.about-btns {
+  display: flex;
+}

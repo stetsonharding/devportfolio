@@ -22,9 +22,16 @@
 }
 
 /* Contact btn */
-#btn-contact:hover {
-  border: 1px solid #fff;
+#btn-contact {
+  border: 1px solid #ff748a;
   color: #ff748a;
+  background-color: #fff;
+}
+
+#btn-contact:hover {
+  border: 1px solid #000;
+  color: #fff;
+  background-color: #ff748a;
 }
 
 /* Extra small devices (phones, 600px and down) */

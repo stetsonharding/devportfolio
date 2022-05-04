@@ -9,13 +9,13 @@ function Hero() {
       <div className="hero">
         <pre>Hello,</pre>
         <pre id="hero-main">
-          I'm <span id="name">Stetson</span>
+          I'm <span className="name">Stetson</span>
         </pre>
         <pre id="hero-sub">
           Front-End Developer - Problem Solver - Drone Pilot
         </pre>
       </div>
-      <HeroBtns />
+      <HeroBtns reach="Contact Me" />
     </div>
   );
 }

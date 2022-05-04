@@ -21,7 +21,7 @@
 }
 
 /*name and name span */
-span {
+.name {
   color: #ff748a;
   font-size: 3rem;
 }
