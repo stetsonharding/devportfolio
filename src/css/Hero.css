@@ -1,8 +1,9 @@
 .hero-container {
   /* Content over particles.js  */
-  position: relative;
+  position: absolute;
   z-index: 1;
   height: 600px;
+  top: 10px;
 
   /* Aligning hero section */
   display: flex;

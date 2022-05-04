@@ -3,6 +3,7 @@ import { loadFull } from "tsparticles";
 import "../src/App.css";
 
 import Hero from "./components/Hero";
+import AboutMeContainer from "./containers/AboutMeContainer";
 
 const App = () => {
   const particlesInit = async (main) => {
@@ -22,6 +23,7 @@ const App = () => {
       <div className="container-style">
         <Particles
           height="60vh"
+          width="100vw"
           id="tsparticles"
           init={particlesInit}
           loaded={particlesLoaded}
@@ -99,8 +101,9 @@ const App = () => {
             detectRetina: true,
           }}
         />
+        <Hero />
       </div>
-      <Hero />
+      <AboutMeContainer />
     </>
   );
 };
