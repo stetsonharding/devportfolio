@@ -4,6 +4,7 @@ import "../src/App.css";
 
 import Hero from "./components/Hero";
 import AboutMeContainer from "./containers/AboutMeContainer";
+import SkillsContainer from "./containers/SkillsContainer";
 
 const App = () => {
   const particlesInit = async (main) => {
@@ -104,6 +105,7 @@ const App = () => {
         <Hero />
       </div>
       <AboutMeContainer />
+      <SkillsContainer />
     </>
   );
 };

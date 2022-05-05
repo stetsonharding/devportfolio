@@ -1,0 +1,21 @@
+/* container */
+.skills-container {
+  height: 750px;
+  width: 100%;
+  background-color: #2c21e2;
+}
+
+/* Skills heading container and heading */
+.skills-heading {
+  height: 100px;
+  padding-top: 2rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.skills-heading h1 {
+  color: #fff;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
