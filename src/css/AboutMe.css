@@ -1,22 +1,57 @@
-.about-container {
+.container {
   max-width: 450px;
 }
 
+/* About me heading */
 .heading {
   font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-span {
-  border-bottom: 4px solid #ff748a;
+/* span */
+.about {
+  border-bottom: 3px solid #ff748a;
 }
 
+/* About me btns */
+.about-btns-container {
+  display: flex;
+}
+.about-btn {
+  padding: 9px;
+  margin-right: 10px;
+  border-radius: 5px;
+  color: #000;
+  font-size: 0.9rem;
+  border: none;
+  cursor: pointer;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.view-work {
+  background-color: #ff748a;
+  color: white;
+  letter-spacing: 1px;
+}
+.view-work:hover {
+  border: 1px solid #fff;
+  color: #000;
+}
+.downloadCV {
+  border: 1px solid #ff748a;
+  color: #ff748a;
+  background-color: #fff;
+  text-decoration: none;
+}
+.downloadCV:hover {
+  border: 1px solid #000;
+  color: #fff;
+  background-color: #ff748a;
+}
+
+/* About me intro */
 .introduction {
   letter-spacing: 1px;
   line-height: 25px;
-}
-
-.about-btns {
-  display: flex;
 }

@@ -1,14 +1,16 @@
 import React from "react";
 
 import "../css/AboutMe.css";
-import HeroBtns from "../components/HeroBtns";
+import "../css/HeroBtns.css";
+
+import DownloadResume from "../downloadFiles/Resume2022.pdf";
 
 function AboutMe() {
   return (
-    <div className="about-container">
-      <div className="about-heading">
+    <div className="container">
+      <div className="about-heading-container">
         <p className="heading">
-          <span>About</span> me
+          <span className="about">About</span> me
         </p>
       </div>
       <p className="introduction">
@@ -17,8 +19,11 @@ function AboutMe() {
         from DeVry University with my BS in Computer Information Systems with a
         specialization in Web Development Administration.
       </p>
-      <div className="about-btns">
-        <HeroBtns reach="Download CV" />
+      <div className="about-btns-container">
+        <button className="about-btn view-work">View My Work</button>
+        <a className="about-btn downloadCV" href={DownloadResume} download>
+          Download CV
+        </a>
       </div>
     </div>
   );
