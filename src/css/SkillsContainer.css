@@ -30,12 +30,12 @@ table {
   height: 550px;
   width: 100%;
 }
+/* top and bottom tables */
 .table-row {
   width: 650px;
   display: flex;
   justify-content: space-between;
 }
-
 .table-row-mid {
   width: 850px;
   display: flex;
