@@ -22,8 +22,8 @@ function SkillsContainer() {
       </div>
       <div className="skill-list-container">
         <table>
-          <tr>
-            <div className="table-row">
+          <div className="table-row">
+            <tr>
               <th>
                 <SkillsIcon src={htmlIcon} alt="html-icon" name="html" />
               </th>
@@ -33,10 +33,10 @@ function SkillsContainer() {
               <th>
                 <SkillsIcon src={sassIcon} alt="sass-icon" name="sass" />
               </th>
-            </div>
-          </tr>
-          <tr>
-            <div className="table-row-mid">
+            </tr>
+          </div>
+          <div className="table-row-mid">
+            <tr>
               <td>
                 <SkillsIcon
                   src={javsScriptIcon}
@@ -52,20 +52,20 @@ function SkillsContainer() {
               </td>
               <td>
                 <SkillsIcon
-                  src={bootstrapIcon}
-                  alt="bootstrap-icon"
-                  name="bootstrap"
-                />
-              </td>
-            </div>
-          </tr>
-          <tr>
-            <div className="table-row">
-              <td>
-                <SkillsIcon
                   src={graphQLIcon}
                   alt="graphQL-icon"
                   name="graphql"
+                />
+              </td>
+            </tr>
+          </div>
+          <div className="table-row">
+            <tr>
+              <td>
+                <SkillsIcon
+                  src={bootstrapIcon}
+                  alt="bootstrap-icon"
+                  name="bootstrap"
                 />
               </td>
               <td>
@@ -78,8 +78,8 @@ function SkillsContainer() {
               <td>
                 <SkillsIcon src={gitIcon} alt="git-icon" name="git" />
               </td>
-            </div>
-          </tr>
+            </tr>
+          </div>
         </table>
       </div>
     </div>
