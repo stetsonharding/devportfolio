@@ -23,7 +23,7 @@ const App = () => {
     <>
       <div className="container-style">
         <Particles
-          height="65vh"
+          height="100vh"
           width="100vw"
           id="tsparticles"
           init={particlesInit}
@@ -32,7 +32,7 @@ const App = () => {
             fullScreen: { enable: false, zIndex: -1 },
             background: {
               color: {
-                value: "#2c21e2",
+                value: "#24215a",
               },
             },
             fpsLimit: 120,

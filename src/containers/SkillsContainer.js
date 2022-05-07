@@ -31,19 +31,16 @@ function SkillsContainer() {
                 <SkillsIcon src={cssIcon} alt="css-icon" name="css" />
               </th>
               <th>
-                <SkillsIcon src={sassIcon} alt="sass-icon" name="sass" />
-              </th>
-            </tr>
-          </div>
-          <div className="table-row-mid">
-            <tr>
-              <td>
                 <SkillsIcon
                   src={javsScriptIcon}
                   alt="JavaScript-icon"
                   name="javaScript"
                 />
-              </td>
+              </th>
+            </tr>
+          </div>
+          <div className="table-row-mid">
+            <tr>
               <td>
                 <SkillsIcon src={reactIcon} alt="react-icon" name="react" />
               </td>
@@ -56,6 +53,9 @@ function SkillsContainer() {
                   alt="graphQL-icon"
                   name="graphql"
                 />
+              </td>
+              <td>
+                <SkillsIcon src={sassIcon} alt="sass-icon" name="sass" />
               </td>
             </tr>
           </div>
