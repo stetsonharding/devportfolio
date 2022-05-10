@@ -17,8 +17,8 @@ import gitIcon from "../assets/icons/git.webp";
 function SkillsContainer() {
   return (
     <div className="skills-container">
-      <div className="skills-heading">
-        <h1>Skills</h1>
+      <div className="section-heading">
+        <h1 className="heading">Skills</h1>
       </div>
       <div className="skill-list-container">
         <table>

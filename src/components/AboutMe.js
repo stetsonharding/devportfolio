@@ -9,7 +9,7 @@ function AboutMe() {
   return (
     <div className="container">
       <div className="about-heading-container">
-        <p className="heading">
+        <p className="about-heading">
           <span className="about">About</span> me
         </p>
       </div>

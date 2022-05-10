@@ -6,22 +6,22 @@
 }
 
 /* Skills heading container and heading */
-.skills-heading {
+.section-heading {
   height: 100px;
   padding-top: 1rem;
   display: flex;
   align-items: flex-end;
   justify-content: center;
 }
-.skills-heading h1 {
+.heading {
   color: #fff;
   font-size: 2.5rem;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
 }
 
 /* Skills Table List */
-
 table {
   display: flex;
   flex-direction: column;
