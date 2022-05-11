@@ -1,5 +1,12 @@
 .recent-project-container {
-  background-color: black;
+  /* background-color: black; */
 
   height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recent-project-image {
+  width: 350px;
 }
