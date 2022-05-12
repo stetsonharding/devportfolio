@@ -9,25 +9,18 @@ import RecentProject from "../components/RecentProject";
 function RecentProjectsContainer() {
   return (
     <div className="recent-projects-container">
-      <div className="section-heading">
-        {" "}
-        <h1 style={{ color: "black" }} className="heading">
-          Recent Projects
-        </h1>
+      <div className="recent-project-heading-container">
+        <h1 className="recent-project-heading">Recent Projects</h1>
       </div>
 
-      <div
-        className="recent-projects"
-        style={{
-          display: "flex",
-        }}
-      >
+      <div className="recent-projects">
         {RecentProjectData.map((recentProject) => {
           return (
             <RecentProject
               imgSrc={recentProject.Imgsrc}
               imgAlt={recentProject.Imgalt}
               description={recentProject.description}
+              href={recentProject.href}
             />
           );
         })}
