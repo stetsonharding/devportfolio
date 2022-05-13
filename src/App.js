@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import AboutMeContainer from "./containers/AboutMeContainer";
 import SkillsContainer from "./containers/SkillsContainer";
 import RecentProjectsContainer from "./containers/RecentProjectsContainer";
+import DataStructuresContainer from "./containers/DataStructuresContainer";
 const App = () => {
   const particlesInit = async (main) => {
     console.log(main);
@@ -107,6 +108,7 @@ const App = () => {
       <AboutMeContainer />
       <SkillsContainer />
       <RecentProjectsContainer />
+      <DataStructuresContainer />
     </>
   );
 };
