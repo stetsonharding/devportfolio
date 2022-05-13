@@ -3,6 +3,7 @@ import React from "react";
 import "../css/RecentProjectsContainer.css";
 
 import { RecentProjectData } from "../RecentProjectData/RecentProjectData.js";
+import DataStructuresContainer from "./DataStructuresContainer";
 
 import RecentProject from "../components/RecentProject";
 
@@ -25,6 +26,7 @@ function RecentProjectsContainer() {
           );
         })}
       </div>
+      <DataStructuresContainer />
     </div>
   );
 }

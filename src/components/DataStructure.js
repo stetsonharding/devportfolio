@@ -1,24 +1,17 @@
 import React from "react";
 
+import "../css/DataStructure.css";
+
 function DataStructure(props) {
   return (
     <div className="data-stucture-container">
       <a
+        className="data-structure-link"
         target="_blank"
         rel="noreferrer"
         href={props.link}
-        style={{ cursor: "pointer", textDecoration: "none" }}
       >
-        <span
-          style={{
-            fontSize: "1.3rem",
-            color: "#ff748a",
-            fontWeight: "bold",
-            fontStyle: "italic",
-          }}
-        >
-          {props.DataStructure}
-        </span>
+        <span className="data-structure-name">{props.DataStructure}</span>
       </a>
     </div>
   );

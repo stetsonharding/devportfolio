@@ -108,7 +108,7 @@ const App = () => {
       <AboutMeContainer />
       <SkillsContainer />
       <RecentProjectsContainer />
-      <DataStructuresContainer />
+      {/* <DataStructuresContainer /> */}
     </>
   );
 };
