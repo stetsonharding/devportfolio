@@ -10,6 +10,9 @@ function DataStructuresContainer() {
       <div className="section-heading">
         <h1 className="heading">Data Structures</h1>
       </div>
+      <h4 className="heag" style={{ color: "#fff" }}>
+        Click for implimentation
+      </h4>
       <div className="data-structure">
         <DataStructure
           DataStructure="Linked List"
