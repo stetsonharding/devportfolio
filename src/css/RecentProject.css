@@ -24,7 +24,8 @@
 .project-description {
   color: #ff748a;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
+  font-style: italic;
   letter-spacing: 1px;
   font-weight: bold;
 }

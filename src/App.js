@@ -2,11 +2,13 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import "../src/App.css";
 
+import parallax from "../src/assets/ParallaxBackground.webp";
+
 import Hero from "./components/Hero";
 import AboutMeContainer from "./containers/AboutMeContainer";
 import SkillsContainer from "./containers/SkillsContainer";
 import RecentProjectsContainer from "./containers/RecentProjectsContainer";
-import DataStructuresContainer from "./containers/DataStructuresContainer";
+import Parallax from "./components/Parallax.js";
 const App = () => {
   const particlesInit = async (main) => {
     console.log(main);
@@ -107,8 +109,8 @@ const App = () => {
       </div>
       <AboutMeContainer />
       <SkillsContainer />
+      <Parallax backgroundImage={parallax} />
       <RecentProjectsContainer />
-      {/* <DataStructuresContainer /> */}
     </>
   );
 };
