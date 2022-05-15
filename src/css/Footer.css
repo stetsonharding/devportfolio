@@ -1,0 +1,20 @@
+.footer-container {
+  height: 280px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.self-portrait-container {
+  /* background-color: aqua; */
+  min-width: 500px;
+  margin-left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.self-portrait {
+  height: 225px;
+  width: 225px;
+}
