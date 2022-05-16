@@ -3,6 +3,7 @@ import React from "react";
 import "../css/Footer.css";
 
 import SelfPortrait from "../assets/Self_portrait.webp";
+import ContactForm from "./ContactForm";
 
 function Footer() {
   return (
@@ -14,6 +15,9 @@ function Footer() {
           alt="Self Portrait of Stetson"
         />
         <pre>&copy; Designed and developed by Stetson Harding</pre>
+      </div>
+      <div className="footer-contact-form">
+        <ContactForm />
       </div>
     </div>
   );

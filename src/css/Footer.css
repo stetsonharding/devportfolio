@@ -1,12 +1,12 @@
 .footer-container {
-  height: 280px;
+  min-height: 280px;
   background-color: #fff;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
+/* Self portrait */
 .self-portrait-container {
-  /* background-color: aqua; */
   min-width: 500px;
   margin-left: 2rem;
   display: flex;
