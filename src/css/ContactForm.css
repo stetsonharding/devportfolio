@@ -1,13 +1,13 @@
 /* Contact form sizes */
 .contact-input {
-  min-width: 350px;
+  min-width: 750px;
   max-width: 750px;
   min-height: 25px;
 }
 #contacts-message {
   min-height: 100px;
   max-height: 150px;
-  min-width: 350px;
+  min-width: 750px;
   max-width: 750px;
 }
 
@@ -15,7 +15,7 @@
 .form-btn {
   padding: 6px;
   border-radius: 5px;
-  color: #000;
+  color: #fff;
   font-size: 0.9rem;
   border: 1px solid #000;
   cursor: pointer;
@@ -26,6 +26,14 @@
 }
 
 .form-btn:hover {
-  color: #fff;
+  opacity: 0.8;
   transition: 0.2s;
+}
+
+.contact-me-heading {
+  color: #ff748a;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
 }

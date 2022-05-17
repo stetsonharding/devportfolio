@@ -9,6 +9,7 @@ import AboutMeContainer from "./containers/AboutMeContainer";
 import SkillsContainer from "./containers/SkillsContainer";
 import RecentProjectsContainer from "./containers/RecentProjectsContainer";
 import Parallax from "./components/Parallax.js";
+import Contact from "./components/Contact";
 const App = () => {
   const particlesInit = async (main) => {
     console.log(main);
@@ -111,6 +112,7 @@ const App = () => {
       <SkillsContainer />
       <Parallax backgroundImage={parallax} />
       <RecentProjectsContainer />
+      <Contact />
     </>
   );
 };

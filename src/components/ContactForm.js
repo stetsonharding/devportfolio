@@ -12,6 +12,7 @@ function ContactForm() {
   return (
     <div className="contact-form-container">
       <form style={{ display: "flex", flexDirection: "column" }}>
+        <h1 className="contact-me-heading">Let's Talk</h1>
         <input
           className="contact-input"
           type="text"
@@ -26,7 +27,7 @@ function ContactForm() {
         />
         <textarea
           id="contacts-message"
-          placeholder="Let's Connect!"
+          placeholder="Message.."
           required
         ></textarea>
         <input className="form-btn" type="submit" value="Submit"></input>
