@@ -1,14 +1,10 @@
 /* Contact form sizes */
 .contact-input {
-  min-width: 750px;
-  max-width: 750px;
   min-height: 25px;
 }
 #contacts-message {
   min-height: 100px;
   max-height: 150px;
-  min-width: 750px;
-  max-width: 750px;
 }
 
 /* Submit btn */
@@ -36,4 +32,36 @@
   font-size: 1.2rem;
   font-weight: bold;
   letter-spacing: 1px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .contact-input {
+    min-width: 300px;
+    max-width: 300px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .contact-input {
+    min-width: 550px;
+    max-width: 550px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .contact-input {
+    min-width: 750px;
+    max-width: 750px;
+  }
 }

@@ -55,6 +55,7 @@ function ContactForm() {
           name="email"
         />
         <textarea
+          className="contact-input"
           id="contacts-message"
           placeholder="Message.."
           required
