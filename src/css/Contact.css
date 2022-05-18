@@ -1,5 +1,5 @@
 .contact-container {
-  min-height: 280px;
+  min-height: 480px;
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -16,6 +16,15 @@
 .self-portrait {
   height: 225px;
   width: 225px;
+}
+
+.contact-socials a {
+  margin: 0.3em;
+  font-size: 1.5rem;
+}
+.contact-socials a:hover {
+  color: #ff748a;
+  transition: 0.5s;
 }
 
 /* Extra small devices (phones, 600px and down) */

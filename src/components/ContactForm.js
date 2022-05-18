@@ -16,14 +16,13 @@ function ContactForm() {
         "template_9ycbt7l",
         e.target,
         "user_OcADP2ZtNbUvQnfGd1atQ"
-        //Q
       )
       .then(
         () => {
           setMessageSuccess("Message Successfully Sent!");
         },
         () => {
-          setMessageError("Error sending your message, please try again.");
+          setMessageError("Error sending message, please try again!");
         }
       );
 
@@ -32,14 +31,11 @@ function ContactForm() {
 
   return (
     <div className="contact-form-container">
-      <form
-        onSubmit={sendEmail}
-        style={{ display: "flex", flexDirection: "column" }}
-      >
+      <form onSubmit={sendEmail}>
         <h1 className="contact-me-heading">Let's Talk</h1>
-        <h5 style={{ paddig: "0", margin: "0", textAlign: "center" }}>
+        <h4 className="contact-success-msg">
           {messageSuccess ? messageSuccess : messageError}
-        </h5>
+        </h4>
         <input
           className="contact-input"
           type="text"
