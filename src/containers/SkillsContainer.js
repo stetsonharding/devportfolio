@@ -20,7 +20,7 @@ function SkillsContainer() {
       <div className="section-heading">
         <h1 className="heading">Skills</h1>
       </div>
-      <div className="skill-list-container">
+      <div data-aos="fade-right" className="skill-list-container">
         <table>
           <div className="table-row">
             <tr>

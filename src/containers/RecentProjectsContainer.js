@@ -14,7 +14,7 @@ function RecentProjectsContainer() {
         <h1 className="recent-project-heading">Recent Projects</h1>
       </div>
 
-      <div className="recent-projects">
+      <div data-aos="fade-right" className="recent-projects">
         {RecentProjectData.map((recentProject) => {
           return (
             <RecentProject

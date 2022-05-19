@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../css/Hero.css";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import HeroBtns from "./HeroBtns";
 
 function Hero() {
+  useEffect(() => {
+    Aos.init({ duration: 2500 });
+  }, []);
+
   return (
-    <div className="hero-container">
+    <div data-aos="fade-up" className="hero-container">
       <div className="hero">
         <pre>Hello,</pre>
         <pre id="hero-main">

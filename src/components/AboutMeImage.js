@@ -6,6 +6,7 @@ import "../css/AboutMeImage.css";
 function AboutMeImage() {
   return (
     <img
+      data-aos="fade-right"
       className="about-me-image"
       src={ProblemSolution}
       alt="Problem - Solution Puzzle Peices"

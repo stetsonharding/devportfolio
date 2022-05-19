@@ -13,7 +13,7 @@ function DataStructuresContainer() {
       <h4 className="sub-heading" style={{ color: "#fff" }}>
         Click for implimentation
       </h4>
-      <div className="data-structure">
+      <div data-aos="fade-up" className="data-structure">
         <DataStructure
           DataStructure="Linked List"
           link="https://github.com/stetsonharding/linked-list"
