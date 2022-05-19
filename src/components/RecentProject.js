@@ -17,6 +17,7 @@ function RecentProject(props) {
       <div className="recent-project-img-container">
         <a target="_blank" rel="noreferrer" href={props.href}>
           <img
+            key={props.id}
             className="project-img"
             onMouseEnter={(e) => hoverImage(e)}
             onMouseLeave={(e) => hoverImage(e)}
@@ -28,7 +29,7 @@ function RecentProject(props) {
           <p className="project-description">{props.description}</p>
         )}
       </div>
-      <div classname="recent-project-tech-stack"></div>
+      <div className="recent-project-tech-stack"></div>
     </div>
   );
 }

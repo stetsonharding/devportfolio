@@ -11,9 +11,7 @@ function Hero() {
         <pre id="hero-main">
           I'm <span className="name">Stetson</span>
         </pre>
-        <pre id="hero-sub">
-          Front-End Developer - Problem Solver - Drone Pilot
-        </pre>
+        <p id="hero-sub">Front-End Developer - Problem Solver - Drone Pilot</p>
       </div>
       <HeroBtns reach="Contact Me" />
     </div>

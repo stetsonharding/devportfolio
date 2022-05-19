@@ -18,6 +18,7 @@ function RecentProjectsContainer() {
         {RecentProjectData.map((recentProject) => {
           return (
             <RecentProject
+              key={recentProject.id}
               imgSrc={recentProject.Imgsrc}
               imgAlt={recentProject.Imgalt}
               description={recentProject.description}
