@@ -5,9 +5,9 @@ import "../css/Contact.css";
 import SelfPortrait from "../assets/Self_portrait.webp";
 import ContactForm from "./ContactForm";
 
-function Contact() {
+function Contact({ contactRef }) {
   return (
-    <div className="contact-container">
+    <div className="contact-container" ref={contactRef}>
       <div className="self-portrait-container">
         <img
           className="self-portrait"

@@ -1,3 +1,4 @@
+import React, { useRef } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import "../src/App.css";
@@ -11,9 +12,11 @@ import RecentProjectsContainer from "./containers/RecentProjectsContainer";
 import Parallax from "./components/Parallax.js";
 import Contact from "./components/Contact";
 const App = () => {
-  const particlesInit = async (main) => {
-    console.log(main);
+  const recentProjectsRef = useRef(null);
+  const contactRef = useRef(null);
 
+  const particlesInit = async (main) => {
+    // console.log(main);
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
     // starting from v2 you can add only the features you need reducing the bundle size
@@ -21,8 +24,14 @@ const App = () => {
   };
 
   const particlesLoaded = (container) => {
-    console.log(container);
+    // console.log(container);
   };
+
+  const executeScroll = (ref) =>
+    ref.current.scrollIntoView({
+      behavior: "smooth",
+    });
+
   return (
     <>
       <div className="container-style">
@@ -106,13 +115,17 @@ const App = () => {
             detectRetina: true,
           }}
         />
-        <Hero />
+        <Hero
+          handleClick={executeScroll}
+          recentProjectsRef={recentProjectsRef}
+          contactRef={contactRef}
+        />
       </div>
       <AboutMeContainer />
       <SkillsContainer />
       <Parallax backgroundImage={parallax} />
-      <RecentProjectsContainer />
-      <Contact />
+      <RecentProjectsContainer recentProjectsRef={recentProjectsRef} />
+      <Contact contactRef={contactRef} />
     </>
   );
 };

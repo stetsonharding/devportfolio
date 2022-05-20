@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 import HeroBtns from "./HeroBtns";
 
-function Hero() {
+function Hero({ handleClick, recentProjectsRef, contactRef }) {
   useEffect(() => {
     Aos.init({ duration: 2500 });
   }, []);
@@ -20,7 +20,11 @@ function Hero() {
         </pre>
         <p id="hero-sub">Front-End Developer - Problem Solver - Drone Pilot</p>
       </div>
-      <HeroBtns reach="Contact Me" />
+      <HeroBtns
+        handleClick={handleClick}
+        recentProjectsRef={recentProjectsRef}
+        contactRef={contactRef}
+      />
     </div>
   );
 }

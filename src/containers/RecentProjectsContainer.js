@@ -7,9 +7,9 @@ import DataStructuresContainer from "./DataStructuresContainer";
 
 import RecentProject from "../components/RecentProject";
 
-function RecentProjectsContainer({ recentProjects }) {
+function RecentProjectsContainer({ recentProjectsRef }) {
   return (
-    <div className="recent-projects-container" ref={recentProjects}>
+    <div className="recent-projects-container" ref={recentProjectsRef}>
       <div
         className="recent-project-heading-container"
         id="recent-projects-href"
