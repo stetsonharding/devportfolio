@@ -11,7 +11,7 @@ function DataStructuresContainer() {
         <h1 className="heading">Data Structures</h1>
       </div>
       <h4 className="sub-heading" style={{ color: "#fff" }}>
-        Click for implimentation
+        Click for implementation.
       </h4>
       <div data-aos="fade-up" className="data-structure">
         <DataStructure

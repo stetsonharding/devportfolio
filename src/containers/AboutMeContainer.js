@@ -6,7 +6,7 @@ import AboutMe from "../components/AboutMe";
 
 function AboutMeContainer() {
   return (
-    <div className="about-me-container">
+    <div className="about-me-container" data-aos="fade-up">
       <AboutMeImage />
       <AboutMe />
     </div>

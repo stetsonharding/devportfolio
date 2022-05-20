@@ -7,14 +7,17 @@ import DataStructuresContainer from "./DataStructuresContainer";
 
 import RecentProject from "../components/RecentProject";
 
-function RecentProjectsContainer() {
+function RecentProjectsContainer({ recentProjects }) {
   return (
-    <div className="recent-projects-container">
-      <div className="recent-project-heading-container">
+    <div className="recent-projects-container" ref={recentProjects}>
+      <div
+        className="recent-project-heading-container"
+        id="recent-projects-href"
+      >
         <h1 className="recent-project-heading">Recent Projects</h1>
       </div>
 
-      <div data-aos="fade-right" className="recent-projects">
+      <div data-aos="fade-up" className="recent-projects">
         {RecentProjectData.map((recentProject) => {
           return (
             <RecentProject

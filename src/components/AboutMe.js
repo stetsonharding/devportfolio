@@ -7,7 +7,7 @@ import DownloadResume from "../downloadFiles/Resume2022.pdf";
 
 function AboutMe() {
   return (
-    <div data-aos="fade-left" className="container">
+    <div className="container">
       <div className="about-heading-container">
         <p className="about-heading">
           <span className="about">About</span> me
