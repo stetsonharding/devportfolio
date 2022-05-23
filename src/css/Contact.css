@@ -7,7 +7,7 @@
 }
 /* Self portrait */
 .self-portrait-container {
-  min-width: 500px;
+  min-width: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
