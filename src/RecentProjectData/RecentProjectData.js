@@ -41,6 +41,6 @@ export const RecentProjectData = [
     Imgalt: "Pokidex website Layout.",
     description:
       "Get details, Look up, search, and filter your favorite pokemons.",
-    href: "",
+    href: "https://stetsonharding.github.io/pokedex-graphql/",
   },
 ];
