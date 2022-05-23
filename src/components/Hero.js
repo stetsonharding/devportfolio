@@ -12,7 +12,7 @@ function Hero({ handleClick, recentProjectsRef, contactRef }) {
   }, []);
 
   return (
-    <div data-aos="fade-up" className="hero-container">
+    <div data-aos="fade-right" className="hero-container">
       <div className="hero">
         <pre>Hello,</pre>
         <pre id="hero-main">
