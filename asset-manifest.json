@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/devportfolio/static/css/main.42696a92.css",
+    "main.css": "/devportfolio/static/css/main.56b17baf.css",
     "main.js": "/devportfolio/static/js/main.3f36c7b9.js",
     "static/js/937.c810681d.chunk.js": "/devportfolio/static/js/937.c810681d.chunk.js",
     "static/media/ParallaxBackground.webp": "/devportfolio/static/media/ParallaxBackground.322edf8f3e2b88c0ccbe.webp",
@@ -22,12 +22,12 @@
     "static/media/javaScript.webp": "/devportfolio/static/media/javaScript.b95eafe27455a95fda8d.webp",
     "static/media/firebase.webp": "/devportfolio/static/media/firebase.ab8ed8bf582c0a063481.webp",
     "index.html": "/devportfolio/index.html",
-    "main.42696a92.css.map": "/devportfolio/static/css/main.42696a92.css.map",
+    "main.56b17baf.css.map": "/devportfolio/static/css/main.56b17baf.css.map",
     "main.3f36c7b9.js.map": "/devportfolio/static/js/main.3f36c7b9.js.map",
     "937.c810681d.chunk.js.map": "/devportfolio/static/js/937.c810681d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42696a92.css",
+    "static/css/main.56b17baf.css",
     "static/js/main.3f36c7b9.js"
   ]
 }
