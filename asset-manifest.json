@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.56b17baf.css",
-    "main.js": "/static/js/main.cbfa06c6.js",
+    "main.css": "/static/css/main.28f31122.css",
+    "main.js": "/static/js/main.94f4c9b5.js",
     "static/js/937.c810681d.chunk.js": "/static/js/937.c810681d.chunk.js",
     "static/media/ParallaxBackground.webp": "/static/media/ParallaxBackground.322edf8f3e2b88c0ccbe.webp",
     "static/media/imageShop.webp": "/static/media/imageShop.68eae01e61b0b272b5d6.webp",
@@ -22,12 +22,12 @@
     "static/media/javaScript.webp": "/static/media/javaScript.b95eafe27455a95fda8d.webp",
     "static/media/firebase.webp": "/static/media/firebase.ab8ed8bf582c0a063481.webp",
     "index.html": "/index.html",
-    "main.56b17baf.css.map": "/static/css/main.56b17baf.css.map",
-    "main.cbfa06c6.js.map": "/static/js/main.cbfa06c6.js.map",
+    "main.28f31122.css.map": "/static/css/main.28f31122.css.map",
+    "main.94f4c9b5.js.map": "/static/js/main.94f4c9b5.js.map",
     "937.c810681d.chunk.js.map": "/static/js/937.c810681d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56b17baf.css",
-    "static/js/main.cbfa06c6.js"
+    "static/css/main.28f31122.css",
+    "static/js/main.94f4c9b5.js"
   ]
 }
