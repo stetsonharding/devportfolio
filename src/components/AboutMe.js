@@ -15,10 +15,10 @@ function AboutMe() {
       </div>
       <p className="introduction">
         Front End Developer based out of Seattle Washington. I am dedicated to
-        devleoping solutions that leverage on best practice technologies to
-        deliver responsive, scalable, user friendly experiences. I attain a
-        bachalors in Computer Information Systems specalizing in Web Development
-        Administration.
+        developing solutions that leverage on best practice technologies to
+        deliver responsive, scalable, user friendly experiences. I have a
+        Bachelor's in Computer Information Systems specializing in Web
+        Development Administration.
       </p>
       <div className="about-btns-container">
         {/* <button className="about-btn view-work">View My Work</button> */}

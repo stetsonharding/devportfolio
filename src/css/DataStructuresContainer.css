@@ -20,6 +20,11 @@
     padding: 1rem;
   }
 
+  .sub-heading {
+    margin: 0;
+    padding-bottom: 0.5rem;
+  }
+
   .data-structures-container {
     min-height: 345px;
   }
