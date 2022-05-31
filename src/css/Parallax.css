@@ -1,9 +1,16 @@
 /* background image for paralax */
 .parallax_background {
-  min-height: 225px;
+  min-height: 325px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .parallax_background {
+    min-height: 200px;
+  }
 }

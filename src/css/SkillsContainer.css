@@ -8,7 +8,7 @@
 /* Skills heading container and heading */
 .section-heading {
   height: 80px;
-  padding-top: ;
+  padding-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,7 +41,6 @@ table {
 }
 .table-row-mid tr {
   width: 750px;
-
   display: flex;
   justify-content: space-between;
   margin: 2rem;
@@ -67,6 +66,15 @@ table {
   }
 
   .table-row-mid tr {
-    width: 50%;
+    width: 250px;
+    justify-content: center;
+  }
+}
+
+/* Fixing table width for smaller ipads/larger phones. */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  .table-row-mid tr {
+    width: 450px;
   }
 }

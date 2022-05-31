@@ -29,7 +29,6 @@ function RecentProject(props) {
           <p className="project-description">{props.description}</p>
         )}
       </div>
-      <div className="recent-project-tech-stack"></div>
     </div>
   );
 }
