@@ -17,7 +17,7 @@ export const RecentProjectData = [
     Imgsrc: MusicalSweatpants,
     Imgalt: "Musical Sweatpants Project.",
     description:
-      "Application that allows the user to shop for an album cover to print on sweatpants. Search, Add to cart, remove, and checkout!",
+      "Application that allows the user to shop for an album cover to print on sweatpants. Search, Select Size, Add to cart, remove, and checkout!",
     href: "https://stetsonharding.github.io/musical-sweatpants/",
   },
   {

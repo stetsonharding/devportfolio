@@ -1,16 +1,27 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useMediaQuery } from "react-responsive";
 
 import "../css/RecentProject.css";
 
 function RecentProject(props) {
   const [displayImgInfo, setDisplayImgInfo] = useState(false);
 
-  //show/hide project description
-  const hoverImage = (e) => {
-    e.preventDefault();
+  const isDesktopOrLaptop = useMediaQuery({
+    query: "(min-width: 1500px)",
+  });
 
-    setDisplayImgInfo(!displayImgInfo);
+  //hover controls for project description
+  const handeMouseOver = () => {
+    setDisplayImgInfo(true);
   };
+  const handleMouseOut = () => {
+    setDisplayImgInfo(false);
+  };
+
+  //Shows Project Description on tablets/mobile without hovering.
+  useEffect(() => {
+    isDesktopOrLaptop ? setDisplayImgInfo(false) : setDisplayImgInfo(true);
+  }, [isDesktopOrLaptop]);
 
   return (
     <div className="recent-project-container">
@@ -19,8 +30,8 @@ function RecentProject(props) {
           <img
             key={props.id}
             className="project-img"
-            onMouseEnter={(e) => hoverImage(e)}
-            onMouseLeave={(e) => hoverImage(e)}
+            onMouseEnter={handeMouseOver}
+            onMouseLeave={handleMouseOut}
             src={props.imgSrc}
             alt={props.imgAlt}
           />
