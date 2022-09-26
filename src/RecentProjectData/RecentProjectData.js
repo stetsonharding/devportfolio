@@ -1,8 +1,10 @@
 //import ImageShop from "../assets/recentProjects/imageShop.webp";
 import ufoSightings from "../assets/recentProjects/ufoSightings.webp";
-import ValleyLawnPros from "../assets/recentProjects/valleyLawnPros.webp";
+//import ValleyLawnPros from "../assets/recentProjects/valleyLawnPros.webp";
 import MusicalSweatpants from "../assets/recentProjects/MusicalSweatpants.webp";
 import ReactPizzaOrders from "../assets/recentProjects/PizzaOrdersReact.webp";
+
+import ImageShop from "../assets/recentProjects/imageShop.webp";
 
 export const RecentProjectData = [
   {
@@ -18,7 +20,7 @@ export const RecentProjectData = [
     Imgsrc: ReactPizzaOrders,
     Imgalt: "Blitz Pizza Orders.",
     description:
-      "Blitz Pizza Co. An application that allows the user to find, add, edit, and delete their food orders within their cart. Build with React.js using Styled Complonents!",
+      "Blitz Pizza Co. An application that allows the user to find, add, edit, and delete their food orders within their cart. Built with React.js using Styled Complonents.",
     href: "https://stetsonharding.github.io/react-pizza-orders/",
   },
   {
@@ -31,10 +33,10 @@ export const RecentProjectData = [
   },
   {
     id: 4,
-    Imgsrc: ValleyLawnPros,
-    Imgalt: "Valley Lawn Pros Website.",
+    Imgsrc: ImageShop,
+    Imgalt: "Image Shop Project.",
     description:
-      "Website I built for a local landscaping company with React.js and bootstrap, hosted with Microsoft Azure.",
-    href: "https://valleylawnpros.net/",
+      "Application to shop for images. Search, like, add, remove, and checkout!",
+    href: "https://stetsonharding.github.io/imageShopApp/#/",
   },
 ];
