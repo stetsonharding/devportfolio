@@ -2,13 +2,21 @@
 import ufoSightings from "../assets/recentProjects/ufoSightings.webp";
 //import ValleyLawnPros from "../assets/recentProjects/valleyLawnPros.webp";
 import MusicalSweatpants from "../assets/recentProjects/MusicalSweatpants.webp";
-import ReactPizzaOrders from "../assets/recentProjects/PizzaOrdersReact.webp";
+//import ReactPizzaOrders from "../assets/recentProjects/PizzaOrdersReact.webp";
+import WesternChime from "../assets/recentProjects/WesternChime.JPG";
 
 import ImageShop from "../assets/recentProjects/imageShop.webp";
 
 export const RecentProjectData = [
   {
     id: 1,
+    Imgsrc: WesternChime,
+    Imgalt: "Western Chime.",
+    description: "Mockup Ecommerce application built with React.",
+    href: "http://westernchime.com/",
+  },
+  {
+    id: 2,
     Imgsrc: ufoSightings,
     Imgalt: "UFO Sightings Project.",
     description:
@@ -16,19 +24,11 @@ export const RecentProjectData = [
     href: "https://stetsonharding.github.io/ufoSightings/#/",
   },
   {
-    id: 2,
-    Imgsrc: ReactPizzaOrders,
-    Imgalt: "Blitz Pizza Orders.",
-    description:
-      "Blitz Pizza Co. An application that allows the user to find, add, edit, and delete their food orders within their cart. Built with React.js using Styled Complonents.",
-    href: "https://stetsonharding.github.io/react-pizza-orders/",
-  },
-  {
     id: 3,
     Imgsrc: MusicalSweatpants,
     Imgalt: "Musical Sweatpants Project.",
     description:
-      "Application that allows the user to shop for an album cover to print on sweatpants. Search, Select Size, Add to cart, remove, and checkout!",
+      "Application that allows the user to shop for an album cover to print on sweatpants. Search, Select Size, Add to cart, remove, and checkout.",
     href: "https://stetsonharding.github.io/musical-sweatpants/",
   },
   {
@@ -36,7 +36,7 @@ export const RecentProjectData = [
     Imgsrc: ImageShop,
     Imgalt: "Image Shop Project.",
     description:
-      "Application to shop for images. Search, like, add, remove, and checkout!",
+      "Application to shop for images. Search, like, add, remove, and checkout.",
     href: "https://stetsonharding.github.io/imageShopApp/#/",
   },
 ];
