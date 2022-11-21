@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.a4f53276.css",
-    "main.js": "/static/js/main.f53cb860.js",
+    "main.js": "/static/js/main.1cf02494.js",
     "static/js/937.c810681d.chunk.js": "/static/js/937.c810681d.chunk.js",
     "static/media/ParallaxBackground.webp": "/static/media/ParallaxBackground.322edf8f3e2b88c0ccbe.webp",
-    "static/media/PizzaOrdersReact.webp": "/static/media/PizzaOrdersReact.223015191f5dd44a866a.webp",
+    "static/media/WesternChime.JPG": "/static/media/WesternChime.257ab64587296ab989b1.JPG",
     "static/media/Stetson_Harding_Resume_2022.pdf": "/static/media/Stetson_Harding_Resume_2022.7332429b07c4370e0c80.pdf",
     "static/media/imageShop.webp": "/static/media/imageShop.68eae01e61b0b272b5d6.webp",
     "static/media/ufoSightings.webp": "/static/media/ufoSightings.08872b7324bfda7cb73e.webp",
@@ -23,11 +23,11 @@
     "static/media/firebase.webp": "/static/media/firebase.ab8ed8bf582c0a063481.webp",
     "index.html": "/index.html",
     "main.a4f53276.css.map": "/static/css/main.a4f53276.css.map",
-    "main.f53cb860.js.map": "/static/js/main.f53cb860.js.map",
+    "main.1cf02494.js.map": "/static/js/main.1cf02494.js.map",
     "937.c810681d.chunk.js.map": "/static/js/937.c810681d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a4f53276.css",
-    "static/js/main.f53cb860.js"
+    "static/js/main.1cf02494.js"
   ]
 }
