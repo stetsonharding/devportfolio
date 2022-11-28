@@ -13,7 +13,7 @@ export const RecentProjectData = [
     Imgsrc: WesternChime,
     Imgalt: "Western Chime.",
     description: "Mockup Ecommerce application built with React.",
-    href: "http://westernchime.com/",
+    href: "https://westernchime.com/",
   },
   {
     id: 2,

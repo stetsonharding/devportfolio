@@ -3,7 +3,7 @@ import React from "react";
 import "../css/AboutMe.css";
 import "../css/HeroBtns.css";
 
-import DownloadResume from "../downloadFiles/Stetson_Harding_Resume_2022.pdf";
+import DownloadResume from "../downloadFiles/Stetson_Harding_Resume.pdf";
 
 function AboutMe() {
   return (
