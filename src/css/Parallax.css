@@ -9,8 +9,13 @@
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .parallax_background {
     min-height: 200px;
+    background-image: url(../assets/ParallaxBackground_Mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
   }
 }

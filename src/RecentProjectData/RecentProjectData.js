@@ -12,7 +12,8 @@ export const RecentProjectData = [
     id: 1,
     Imgsrc: WesternChime,
     Imgalt: "Western Chime.",
-    description: "Mockup Ecommerce application built with React.",
+    description:
+      "A mock-up e-commerce website that fetches the Punk API. My goal of this project was to incorporate a lot of the functionality found on a general e-commerce website using React.js.",
     href: "https://westernchime.com/",
   },
   {
@@ -20,7 +21,7 @@ export const RecentProjectData = [
     Imgsrc: ufoSightings,
     Imgalt: "UFO Sightings Project.",
     description:
-      "Get information on real UFO sightings and their coordinates to view on Google Maps. These are reported sightings around the USA. Made with React.js and Firebase for backend.",
+      "UFO Sightings is an application that lets the user browse and read about any exciting and unexpected UFO Sightings happening in any of the 50 US states. The user is also able to view where the sighting took place at via Google Maps.",
     href: "https://stetsonharding.github.io/ufoSightings/#/",
   },
   {
@@ -28,7 +29,7 @@ export const RecentProjectData = [
     Imgsrc: MusicalSweatpants,
     Imgalt: "Musical Sweatpants Project.",
     description:
-      "Application that allows the user to shop for an album cover to print on sweatpants. Search, Select Size, Add to cart, remove, and checkout.",
+      "Ecommerce webpage that fetches the iTunes api, allowing users to purchase musical sweatpants. Allowing the user to add/remove items from shipping cart, and provides a mocked checkout workflow.",
     href: "https://stetsonharding.github.io/musical-sweatpants/",
   },
   {
