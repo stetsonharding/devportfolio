@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.a4f53276.css",
-    "main.js": "/static/js/main.cbaefb1c.js",
+    "main.css": "/static/css/main.f8df32bd.css",
+    "main.js": "/static/js/main.5143d3b7.js",
     "static/js/937.c810681d.chunk.js": "/static/js/937.c810681d.chunk.js",
     "static/media/ParallaxBackground.webp": "/static/media/ParallaxBackground.322edf8f3e2b88c0ccbe.webp",
     "static/media/WesternChime.JPG": "/static/media/WesternChime.257ab64587296ab989b1.JPG",
     "static/media/Stetson_Harding_Resume.pdf": "/static/media/Stetson_Harding_Resume.9e5729cedbfae29a8f86.pdf",
     "static/media/imageShop.webp": "/static/media/imageShop.68eae01e61b0b272b5d6.webp",
+    "static/media/ParallaxBackground_Mobile.jpg": "/static/media/ParallaxBackground_Mobile.5cedcdfb880dee8de69b.jpg",
     "static/media/ufoSightings.webp": "/static/media/ufoSightings.08872b7324bfda7cb73e.webp",
     "static/media/ProblemSolution__.webp": "/static/media/ProblemSolution__.a616de469dceb070f96d.webp",
     "static/media/MusicalSweatpants.webp": "/static/media/MusicalSweatpants.f7a838caf0bec76b4688.webp",
@@ -22,12 +23,12 @@
     "static/media/javaScript.webp": "/static/media/javaScript.b95eafe27455a95fda8d.webp",
     "static/media/firebase.webp": "/static/media/firebase.ab8ed8bf582c0a063481.webp",
     "index.html": "/index.html",
-    "main.a4f53276.css.map": "/static/css/main.a4f53276.css.map",
-    "main.cbaefb1c.js.map": "/static/js/main.cbaefb1c.js.map",
+    "main.f8df32bd.css.map": "/static/css/main.f8df32bd.css.map",
+    "main.5143d3b7.js.map": "/static/js/main.5143d3b7.js.map",
     "937.c810681d.chunk.js.map": "/static/js/937.c810681d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4f53276.css",
-    "static/js/main.cbaefb1c.js"
+    "static/css/main.f8df32bd.css",
+    "static/js/main.5143d3b7.js"
   ]
 }
