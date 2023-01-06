@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f8df32bd.css",
-    "main.js": "/static/js/main.5143d3b7.js",
+    "main.css": "/static/css/main.9bdfac28.css",
+    "main.js": "/static/js/main.40b5657a.js",
     "static/js/937.c810681d.chunk.js": "/static/js/937.c810681d.chunk.js",
     "static/media/ParallaxBackground.webp": "/static/media/ParallaxBackground.322edf8f3e2b88c0ccbe.webp",
     "static/media/WesternChime.JPG": "/static/media/WesternChime.257ab64587296ab989b1.JPG",
@@ -23,12 +23,12 @@
     "static/media/javaScript.webp": "/static/media/javaScript.b95eafe27455a95fda8d.webp",
     "static/media/firebase.webp": "/static/media/firebase.ab8ed8bf582c0a063481.webp",
     "index.html": "/index.html",
-    "main.f8df32bd.css.map": "/static/css/main.f8df32bd.css.map",
-    "main.5143d3b7.js.map": "/static/js/main.5143d3b7.js.map",
+    "main.9bdfac28.css.map": "/static/css/main.9bdfac28.css.map",
+    "main.40b5657a.js.map": "/static/js/main.40b5657a.js.map",
     "937.c810681d.chunk.js.map": "/static/js/937.c810681d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8df32bd.css",
-    "static/js/main.5143d3b7.js"
+    "static/css/main.9bdfac28.css",
+    "static/js/main.40b5657a.js"
   ]
 }
