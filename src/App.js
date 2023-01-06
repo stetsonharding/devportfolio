@@ -11,6 +11,7 @@ import SkillsContainer from "./containers/SkillsContainer";
 import RecentProjectsContainer from "./containers/RecentProjectsContainer";
 import Parallax from "./components/Parallax.js";
 import Contact from "./components/Contact";
+import DataStructuresContainer from "./containers/DataStructuresContainer";
 const App = () => {
   const recentProjectsRef = useRef(null);
   const contactRef = useRef(null);
@@ -125,6 +126,7 @@ const App = () => {
       <SkillsContainer />
       <Parallax backgroundImage={parallax} />
       <RecentProjectsContainer recentProjectsRef={recentProjectsRef} />
+      <DataStructuresContainer />
       <Contact contactRef={contactRef} />
     </>
   );

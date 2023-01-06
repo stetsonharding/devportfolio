@@ -20,6 +20,9 @@
   .recent-projects {
     flex-direction: column;
   }
+  .recent-project-heading {
+    font-size: 1.8rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

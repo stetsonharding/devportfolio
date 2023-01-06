@@ -1,10 +1,9 @@
 .recent-project-container {
-  height: 500px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .recent-project-img-container {
@@ -35,40 +34,17 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .project-img {
-    height: 175px;
+    height: fit-content;
     width: 285px;
     cursor: none;
-  }
-
-  .recent-project-container {
-    height: 250px;
-    padding: 0.5rem 0;
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .recent-project-container {
-    height: 315px;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .recent-project-container {
-    height: 315px;
-  }
-
   .project-description {
     width: 50%;
   }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  /* .recent-project-container {
-    height: 505px;
-  } */
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
