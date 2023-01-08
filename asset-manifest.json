@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3994fb00.css",
-    "main.js": "/static/js/main.40b5657a.js",
+    "main.js": "/static/js/main.57dfedc4.js",
     "static/js/937.c810681d.chunk.js": "/static/js/937.c810681d.chunk.js",
     "static/media/ParallaxBackground.webp": "/static/media/ParallaxBackground.322edf8f3e2b88c0ccbe.webp",
     "static/media/WesternChime.JPG": "/static/media/WesternChime.257ab64587296ab989b1.JPG",
@@ -9,9 +9,9 @@
     "static/media/imageShop.webp": "/static/media/imageShop.68eae01e61b0b272b5d6.webp",
     "static/media/ParallaxBackground_Mobile.jpg": "/static/media/ParallaxBackground_Mobile.5cedcdfb880dee8de69b.jpg",
     "static/media/ufoSightings.webp": "/static/media/ufoSightings.08872b7324bfda7cb73e.webp",
+    "static/media/Self_portrait_.webp": "/static/media/Self_portrait_.6781ff0b176e55968c17.webp",
     "static/media/ProblemSolution__.webp": "/static/media/ProblemSolution__.a616de469dceb070f96d.webp",
     "static/media/MusicalSweatpants.webp": "/static/media/MusicalSweatpants.f7a838caf0bec76b4688.webp",
-    "static/media/Self_portrait.webp": "/static/media/Self_portrait.de39e27a9909c8a99198.webp",
     "static/media/redux.webp": "/static/media/redux.71ece2502b25847a5447.webp",
     "static/media/graphQL.webp": "/static/media/graphQL.2d37b00c670a56c5bd05.webp",
     "static/media/sass.webp": "/static/media/sass.f55156243759d2aa221f.webp",
@@ -24,11 +24,11 @@
     "static/media/firebase.webp": "/static/media/firebase.ab8ed8bf582c0a063481.webp",
     "index.html": "/index.html",
     "main.3994fb00.css.map": "/static/css/main.3994fb00.css.map",
-    "main.40b5657a.js.map": "/static/js/main.40b5657a.js.map",
+    "main.57dfedc4.js.map": "/static/js/main.57dfedc4.js.map",
     "937.c810681d.chunk.js.map": "/static/js/937.c810681d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3994fb00.css",
-    "static/js/main.40b5657a.js"
+    "static/js/main.57dfedc4.js"
   ]
 }
