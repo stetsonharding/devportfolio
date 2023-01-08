@@ -2,7 +2,7 @@ import React from "react";
 
 import "../css/Contact.css";
 
-import SelfPortrait from "../assets/Self_portrait.webp";
+import SelfPortrait from "../assets/Self_portrait_.webp";
 import ContactForm from "./ContactForm";
 
 function Contact({ contactRef }) {
