@@ -14,12 +14,13 @@
   flex-direction: column;
 }
 .self-portrait {
-  height: 225px;
-  width: 225px;
+  height: 170px;
+  width: 170px;
+  margin-bottom: 0.5em;
 }
 
 .contact-socials a {
-  margin: 0.3em;
+  margin: 0.5em;
   font-size: 1.5rem;
 }
 .contact-socials a:hover {
