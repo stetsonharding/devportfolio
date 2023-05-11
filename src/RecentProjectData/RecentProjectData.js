@@ -4,8 +4,9 @@ import ufoSightings from "../assets/recentProjects/ufoSightings.webp";
 import MusicalSweatpants from "../assets/recentProjects/MusicalSweatpants.webp";
 //import ReactPizzaOrders from "../assets/recentProjects/PizzaOrdersReact.webp";
 import WesternChime from "../assets/recentProjects/WesternChime.JPG";
+import TheKushery from "../assets/recentProjects/TheKushery.JPG";
 
-import ImageShop from "../assets/recentProjects/imageShop.webp";
+// import ImageShop from "../assets/recentProjects/imageShop.webp";
 
 export const RecentProjectData = [
   {
@@ -18,6 +19,14 @@ export const RecentProjectData = [
   },
   {
     id: 2,
+    Imgsrc: TheKushery,
+    Imgalt: "The Kushery Project.",
+    description:
+      "Webpage I built for a multimillion dollar Recreational Marijuana buisness - using React.js, vite, react boostrap, and hosted with Microsoft Azure. Repo available upon request.",
+    href: "https://thekushery.rocks/",
+  },
+  {
+    id: 3,
     Imgsrc: ufoSightings,
     Imgalt: "UFO Sightings Project.",
     description:
@@ -25,19 +34,20 @@ export const RecentProjectData = [
     href: "https://stetsonharding.github.io/ufoSightings/#/",
   },
   {
-    id: 3,
+    id: 4,
     Imgsrc: MusicalSweatpants,
     Imgalt: "Musical Sweatpants Project.",
     description:
       "Ecommerce webpage that fetches the iTunes api, allowing users to purchase musical sweatpants. Allowing the user to add/remove items from shipping cart, and provides a mocked checkout workflow.",
     href: "https://stetsonharding.github.io/musical-sweatpants/",
   },
-  {
-    id: 4,
-    Imgsrc: ImageShop,
-    Imgalt: "Image Shop Project.",
-    description:
-      "Application to shop for images. Search, like, add, remove, and checkout.",
-    href: "https://stetsonharding.github.io/imageShopApp/#/",
-  },
+
+  //   {
+  //   id: 4,
+  //   Imgsrc: ImageShop,
+  //   Imgalt: "Image Shop Project.",
+  //   description:
+  //     "Application to shop for images. Search, like, add, remove, and checkout.",
+  //   href: "https://stetsonharding.github.io/imageShopApp/#/",
+  // },
 ];
