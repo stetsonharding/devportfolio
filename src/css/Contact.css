@@ -14,9 +14,10 @@
   flex-direction: column;
 }
 .self-portrait {
-  height: 170px;
-  width: 170px;
+  height: 140px;
+  width: 140px;
   margin-bottom: 0.5em;
+  border-radius:50px;
 }
 
 .contact-socials a {
