@@ -6,23 +6,33 @@ import MusicalSweatpants from "../assets/recentProjects/MusicalSweatpants.webp";
 import WesternChime from "../assets/recentProjects/WesternChime.JPG";
 import TheKushery from "../assets/recentProjects/TheKushery.JPG";
 
+import mockery from "../assets/recentProjects/mockery.png"
+
 // import ImageShop from "../assets/recentProjects/imageShop.webp";
 
 export const RecentProjectData = [
+  // {
+  //   id: 1,
+  //   Imgsrc: WesternChime,
+  //   Imgalt: "Western Chime.",
+  //   description:
+  //     "A mock-up e-commerce website that fetches the Punk API. My goal of this project was to incorporate a lot of the functionality found on a general e-commerce website using React.js.",
+  //   href: "https://westernchime.com/",
+  // },
   {
     id: 1,
-    Imgsrc: WesternChime,
-    Imgalt: "Western Chime.",
+    Imgsrc: mockery,
+    Imgalt: "Mockery Project",
     description:
-      "A mock-up e-commerce website that fetches the Punk API. My goal of this project was to incorporate a lot of the functionality found on a general e-commerce website using React.js.",
-    href: "https://westernchime.com/",
+      "I created a project designed to empower frontend developers to kickstart their projects seamlessly. It offers the functionality to generate mock data tailored to their precise formats and data schemas even before their APIs are finalized and deployed. This ensures a smooth integration process, allowing developers to seamlessly incorporate their APIs once they are developed.",
+    href: "https://web.mockeryhub.io/",
   },
   {
     id: 2,
     Imgsrc: TheKushery,
     Imgalt: "The Kushery Project.",
     description:
-      "Webpage I built for a multimillion dollar Recreational Marijuana buisness - using React.js, vite, react boostrap, and hosted with Microsoft Azure. Repo available upon request.",
+      "I developed a cutting-edge website for a multimillion-dollar Recreational Marijuana business, leveraging React.js, Vite, React Bootstrap, and hosted it on Microsoft Azure. The repository is available upon request.",
     href: "https://thekushery.rocks/",
   },
   {
