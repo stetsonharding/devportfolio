@@ -25,6 +25,7 @@ function RecentProjectsContainer({ recentProjectsRef }) {
               imgAlt={recentProject.Imgalt}
               description={recentProject.description}
               href={recentProject.href}
+              title={recentProject.title}
             />
           );
         })}

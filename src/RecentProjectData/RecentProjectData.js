@@ -21,14 +21,17 @@ export const RecentProjectData = [
   // },
   {
     id: 1,
+    title:"Mockery",
     Imgsrc: mockery,
     Imgalt: "Mockery Project",
     description:
       "I created a project designed to empower frontend developers to kickstart their projects seamlessly. It offers the functionality to generate mock data tailored to their precise formats and data schemas even before their APIs are finalized and deployed. This ensures a smooth integration process, allowing developers to seamlessly incorporate their APIs once they are developed.",
-    href: "https://web.mockeryhub.io/",
+      href:"https://web.mockeryhub.io/",
+    video: "https://web.mockeryhub.io/",
   },
   {
     id: 2,
+    title:"The Kushery",
     Imgsrc: TheKushery,
     Imgalt: "The Kushery Project.",
     description:
@@ -37,6 +40,7 @@ export const RecentProjectData = [
   },
   {
     id: 3,
+    title:"UFO Sightings",
     Imgsrc: ufoSightings,
     Imgalt: "UFO Sightings Project.",
     description:
@@ -45,6 +49,7 @@ export const RecentProjectData = [
   },
   {
     id: 4,
+    title:"Musical Sweatpants",
     Imgsrc: MusicalSweatpants,
     Imgalt: "Musical Sweatpants Project.",
     description:

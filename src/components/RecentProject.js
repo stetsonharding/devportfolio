@@ -26,6 +26,7 @@ function RecentProject(props) {
   return (
     <div className="recent-project-container">
       <div className="recent-project-img-container">
+        <h3>{props.title}</h3>
         <a target="_blank" rel="noreferrer" href={props.href}>
           <img
             key={props.id}
@@ -37,7 +38,16 @@ function RecentProject(props) {
           />
         </a>
         {displayImgInfo && (
-          <p className="project-description">{props.description}</p>
+          <div 
+          onMouseEnter={handeMouseOver}
+          onMouseLeave={handleMouseOut}
+         className="project-description"
+          >
+           {props.title === "Mockery" &&  <a target="_blank" href="https://www.veed.io/view/89bd9454-6fda-41f8-8e3a-f130548b1164?panel=download"><i>View Mockery Presentation </i></a>}
+         
+          <p>{props.description}</p>
+       
+          </div>
         )}
       </div>
     </div>

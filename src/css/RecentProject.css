@@ -22,13 +22,25 @@
 }
 
 .project-description {
-  color: #ff748a;
   text-align: center;
-  font-size: 0.9rem;
-  font-style: italic;
+  padding: 0 15px;
+}
+
+.project-description p {
   letter-spacing: 1px;
   font-weight: bold;
-  padding: 0 15px;
+  font-size: 0.9rem;
+  color: #ff748a;
+
+}
+
+.project-description a {
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #0f0f0f;
+
+
 }
 
 /* Extra small devices (phones, 600px and down) */
