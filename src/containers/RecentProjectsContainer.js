@@ -16,7 +16,7 @@ function RecentProjectsContainer({ recentProjectsRef }) {
         <h1 className="recent-project-heading">Recent Projects</h1>
       </div>
 
-      <div data-aos="fade-up" className="recent-projects">
+      <div data-aos="fade-up" className="recent-projects" style={{height: 'fit-content'}}>
         {RecentProjectData.map((recentProject) => {
           return (
             <RecentProject

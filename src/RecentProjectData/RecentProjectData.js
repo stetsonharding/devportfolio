@@ -1,11 +1,10 @@
 //import ImageShop from "../assets/recentProjects/imageShop.webp";
 import ufoSightings from "../assets/recentProjects/ufoSightings.webp";
-//import ValleyLawnPros from "../assets/recentProjects/valleyLawnPros.webp";
 import MusicalSweatpants from "../assets/recentProjects/MusicalSweatpants.webp";
 //import ReactPizzaOrders from "../assets/recentProjects/PizzaOrdersReact.webp";
-import WesternChime from "../assets/recentProjects/WesternChime.JPG";
+// import WesternChime from "../assets/recentProjects/WesternChime.JPG";
 import TheKushery from "../assets/recentProjects/TheKushery.JPG";
-
+import AzureFD from "../assets/recentProjects/AzureFD.png"
 import mockery from "../assets/recentProjects/mockery.png"
 
 // import ImageShop from "../assets/recentProjects/imageShop.webp";
@@ -41,7 +40,7 @@ export const RecentProjectData = [
   {
     id: 3,
     title:"Azure Frontdoor",
-    Imgsrc: MusicalSweatpants,
+    Imgsrc: AzureFD,
     Imgalt: "Azure Frontdoor Project.",
     description:
       "Partnering with a seasoned software engineer, I took the lead in developing the front-end using React.js. We designed an application that dynamically controls inbound traffic based on global regions. This involved seamless interaction with the backend systems. My role encompassed crafting the front-end architecture, implementing user-friendly features, and ensuring a smooth integration with the backend functionalities. This experience not only honed my technical skills in React.js but also provided valuable insights into effective collaboration and project management within a development team.",
