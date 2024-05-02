@@ -11,13 +11,13 @@
 }
 
 .icon-name-container pre {
-  font-size: 0.7rem;
+  font-size: .9rem;
   font-weight: bold;
-  font-style: italic;
   color: #ff748a;
-  margin: 5px;
-  padding: 0;
+  margin: 3px;
+  padding: 5px;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 @keyframes shake {
