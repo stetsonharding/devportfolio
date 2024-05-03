@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.adcc9451.css",
-    "main.js": "/static/js/main.e11d6ae0.js",
+    "main.css": "/static/css/main.9ebdbbf9.css",
+    "main.js": "/static/js/main.514a9f70.js",
     "static/js/937.c810681d.chunk.js": "/static/js/937.c810681d.chunk.js",
-    "static/media/Stetson_Harding_Resume.pdf": "/static/media/Stetson_Harding_Resume.f3dbc121782a159df41d.pdf",
+    "static/media/Stetson Harding - Frontend Developer - Resume.pdf": "/static/media/Stetson Harding - Frontend Developer - Resume.e965cd94b615023f3776.pdf",
+    "static/media/mockery.png": "/static/media/mockery.750c85316cb1a3159bdf.png",
     "static/media/ParallaxBackground.webp": "/static/media/ParallaxBackground.322edf8f3e2b88c0ccbe.webp",
-    "static/media/WesternChime.JPG": "/static/media/WesternChime.257ab64587296ab989b1.JPG",
+    "static/media/self_portrait.jpg": "/static/media/self_portrait.7bfc0fe9c6e71345b64b.jpg",
     "static/media/ParallaxBackground_Mobile.jpg": "/static/media/ParallaxBackground_Mobile.5cedcdfb880dee8de69b.jpg",
     "static/media/TheKushery.JPG": "/static/media/TheKushery.4a83e87ccea9c638a533.JPG",
     "static/media/ufoSightings.webp": "/static/media/ufoSightings.08872b7324bfda7cb73e.webp",
-    "static/media/Self_portrait_.webp": "/static/media/Self_portrait_.6781ff0b176e55968c17.webp",
+    "static/media/AzureFD.png": "/static/media/AzureFD.895614f651d98623d7c9.png",
     "static/media/ProblemSolution__.webp": "/static/media/ProblemSolution__.a616de469dceb070f96d.webp",
     "static/media/MusicalSweatpants.webp": "/static/media/MusicalSweatpants.f7a838caf0bec76b4688.webp",
     "static/media/redux.webp": "/static/media/redux.71ece2502b25847a5447.webp",
@@ -23,12 +24,12 @@
     "static/media/javaScript.webp": "/static/media/javaScript.b95eafe27455a95fda8d.webp",
     "static/media/firebase.webp": "/static/media/firebase.ab8ed8bf582c0a063481.webp",
     "index.html": "/index.html",
-    "main.adcc9451.css.map": "/static/css/main.adcc9451.css.map",
-    "main.e11d6ae0.js.map": "/static/js/main.e11d6ae0.js.map",
+    "main.9ebdbbf9.css.map": "/static/css/main.9ebdbbf9.css.map",
+    "main.514a9f70.js.map": "/static/js/main.514a9f70.js.map",
     "937.c810681d.chunk.js.map": "/static/js/937.c810681d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.adcc9451.css",
-    "static/js/main.e11d6ae0.js"
+    "static/css/main.9ebdbbf9.css",
+    "static/js/main.514a9f70.js"
   ]
 }
