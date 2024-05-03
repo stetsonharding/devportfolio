@@ -1,8 +1,18 @@
 /* container */
 .skills-container {
-  height: 710px;
+  height: fit-content;
   width: 100%;
   background-color: #24215a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skill-list-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Skills heading container and heading */
@@ -15,7 +25,7 @@
 }
 .heading {
   color: #fff;
-  font-size: 2.2rem;
+  font-size: 1.9rem;
   letter-spacing: 1px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
@@ -25,56 +35,29 @@
 
 /* Skills Table List */
 table {
+   display: flex; 
+width: 60%;
+
+}
+
+.table-row{
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  min-height: 550px;
-  width: 100%;
-}
-/* top and bottom tables */
-.table-row tr {
-  width: 650px;
-
-  display: flex;
-  justify-content: space-around;
-}
-.table-row-mid tr {
-  width: 750px;
-  display: flex;
-  justify-content: space-between;
-  margin: 2rem;
+ margin: 20px 0 50px 0;
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .heading {
-    font-size: 2rem;
-  }
-
-  table {
-    min-height: 430px;
-  }
+@media only screen and (min-width: 1000px) {
 
   .skills-container {
     height: 550px;
-    width: 100%;
+ 
   }
 
-  .table-row tr {
-    width: 100%;
-  }
-
-  .table-row-mid tr {
-    width: 250px;
-    justify-content: center;
-  }
+ 
 }
 
-/* Fixing table width for smaller ipads/larger phones. */
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 900px) and (min-width: 600px) {
-  .table-row-mid tr {
-    width: 450px;
-  }
-}
+
+

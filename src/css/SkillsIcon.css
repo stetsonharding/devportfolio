@@ -1,8 +1,14 @@
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .icon img {
   height: 95px;
   width: 95px;
   border-radius: 10px;
 }
+
 
 .icon img:hover {
   animation: shake 0.62s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
@@ -11,13 +17,13 @@
 }
 
 .icon-name-container pre {
-  font-size: 0.7rem;
+  font-size: .9rem;
   font-weight: bold;
-  font-style: italic;
   color: #ff748a;
-  margin: 5px;
-  padding: 0;
+  margin: 3px;
+  padding: 5px;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 @keyframes shake {

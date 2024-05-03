@@ -3,7 +3,7 @@ import React from "react";
 import "../css/AboutMe.css";
 import "../css/HeroBtns.css";
 
-import DownloadResume from "../downloadFiles/Stetson_Harding_Resume.pdf";
+import DownloadResume from "../downloadFiles/Stetson Harding - Frontend Developer - Resume.pdf";
 
 function AboutMe() {
   return (
@@ -14,11 +14,7 @@ function AboutMe() {
         </p>
       </div>
       <p className="introduction">
-        Front End Developer based out of Seattle Washington. I am dedicated to
-        developing solutions that leverage on best practice technologies to
-        deliver responsive, scalable, user friendly experiences. I have a
-        Bachelor's in Computer Information Systems specializing in Web
-        Development Administration.
+      I'm a Front End Developer based in Seattle, Washington, dedicated to crafting solutions that harness the power of cutting-edge technologies. My focus is on delivering responsive, scalable, and user-friendly experiences. With a Bachelor's degree in Computer Information Systems, specializing in Web Development Administration, I bring a solid foundation to every project I undertake.
       </p>
       <div className="about-btns-container">
         {/* <button className="about-btn view-work">View My Work</button> */}
