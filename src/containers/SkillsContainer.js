@@ -13,20 +13,20 @@ import bootstrapIcon from "../assets/icons/bootstrap.webp";
 import graphQLIcon from "../assets/icons/graphQL.webp";
 import firebaseIcon from "../assets/icons/firebase.webp";
 import gitIcon from "../assets/icons/git.webp";
-import docker from "../assets/icons/docker.png"
-import tailwind from "../assets/icons/tailwind.png"
-import nextjs from "../assets/icons/nextjs.png"
+import docker from "../assets/icons/docker.png";
+import tailwind from "../assets/icons/tailwind.png";
+import nextjs from "../assets/icons/nextjs.png";
 
 function SkillsContainer() {
   return (
     <div className="skills-container">
       <div className="section-heading">
-        <h1 className="heading">Highlighted Skills & Tools</h1>
+        <h1 className="heading">Some Highlighted Skills & Tools</h1>
       </div>
       <div data-aos="fade-up" className="skill-list-container">
         <table>
-        
-        <tr className="table-row">
+          <tbody> {/* Added tbody here */}
+            <tr className="table-row">
               <td>
                 <SkillsIcon src={htmlIcon} alt="html-icon" name="HTML" />
               </td>
@@ -41,16 +41,9 @@ function SkillsContainer() {
                 />
               </td>
               <td>
-                <SkillsIcon
-                  src={nextjs}
-                  alt="Next.js-icon"
-                  name="Next.js"
-                />
+                <SkillsIcon src={nextjs} alt="Next.js-icon" name="Next.js" />
               </td>
-           
-        
-        
-          
+
               <td>
                 <SkillsIcon src={reactIcon} alt="React-icon" name="React.js" />
               </td>
@@ -74,10 +67,6 @@ function SkillsContainer() {
                   name="Tailwind"
                 />
               </td>
-          
-        
-        
-         
               <td>
                 <SkillsIcon
                   src={bootstrapIcon}
@@ -96,14 +85,10 @@ function SkillsContainer() {
                 <SkillsIcon src={gitIcon} alt="Git-icon" name="Git/Github" />
               </td>
               <td>
-                <SkillsIcon
-                  src={docker}
-                  alt="Docker-icon"
-                  name="Docker"
-                />
+                <SkillsIcon src={docker} alt="Docker-icon" name="Docker" />
               </td>
             </tr>
-       
+          </tbody>
         </table>
       </div>
     </div>

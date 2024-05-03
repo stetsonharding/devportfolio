@@ -9,6 +9,12 @@
   flex-direction: column;
 }
 
+.skill-list-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Skills heading container and heading */
 .section-heading {
   height: 80px;
@@ -52,5 +58,6 @@ width: 60%;
 
  
 }
+
 
 
