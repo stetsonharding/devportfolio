@@ -1,11 +1,12 @@
 //import ImageShop from "../assets/recentProjects/imageShop.webp";
 import ufoSightings from "../assets/recentProjects/ufoSightings.webp";
-import MusicalSweatpants from "../assets/recentProjects/MusicalSweatpants.webp";
+//import MusicalSweatpants from "../assets/recentProjects/MusicalSweatpants.webp";
 //import ReactPizzaOrders from "../assets/recentProjects/PizzaOrdersReact.webp";
 // import WesternChime from "../assets/recentProjects/WesternChime.JPG";
 import TheKushery from "../assets/recentProjects/TheKushery.JPG";
 import AzureFD from "../assets/recentProjects/AzureFD.png"
 import mockery from "../assets/recentProjects/mockery.png"
+import TaskTraxProject from '../assets/recentProjects/TaskTraxProject_.jpg'
 
 // import ImageShop from "../assets/recentProjects/imageShop.webp";
 
@@ -48,6 +49,15 @@ export const RecentProjectData = [
   },
   {
     id: 4,
+    title:"Fullstack Task Trax",
+    Imgsrc: TaskTraxProject,
+    Imgalt: "Fullstack Task Trax Project",
+    description:
+      "This project is a full stack task manager application built with React, Express, Redux, and MongoDB. It allows users to manage tasks efficiently by providing a user-friendly interface for creating, updating, and deleting tasks.",
+    href: "https://tasktrax-691ef54c2e05.herokuapp.com/",
+  },
+  {
+    id: 5,
     title:"UFO Sightings",
     Imgsrc: ufoSightings,
     Imgalt: "UFO Sightings Project.",
