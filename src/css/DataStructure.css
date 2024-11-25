@@ -1,8 +1,11 @@
 .data-stucture-container {
   margin: 0.2rem;
+
+
 }
 .data-structure-link {
   text-decoration: none;
+
 }
 
 .data-structure-name {
@@ -11,10 +14,18 @@
   font-weight: bold;
   font-style: italic;
   letter-spacing: 1px;
+  background-color: white;
+  padding: .5rem;
+  border-radius: 5px;
+
+  
 }
 
 .data-structure-name:hover {
-  color: #fff;
+  color: #24215a;
   cursor: pointer;
   transition: 0.4s;
 }
+
+
+
