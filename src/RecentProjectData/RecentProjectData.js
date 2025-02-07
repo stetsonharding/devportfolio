@@ -26,7 +26,7 @@ export const RecentProjectData = [
     Imgalt: "Mockery Project",
     description:
       "I Colaborated on a project designed to empower frontend developers to kickstart their projects seamlessly. It offers the functionality to generate mock data tailored to their precise formats and data schemas even before their APIs are finalized and deployed. This ensures a smooth integration process, allowing developers to seamlessly incorporate their APIs once they are developed.",
-      href:"https://web.mockeryhub.io/",
+      href:"https://mockery-web-pro-staging.azurewebsites.net",
     video: "https://web.mockeryhub.io/",
   },
   {
